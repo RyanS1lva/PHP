@@ -32,7 +32,7 @@
 
                 echo "<p>R$ $real considerando a cotação atual valem: $ " . round(calculo($cotacao, $real), 2) . " doláres.</p>";
         ?>
-        <button class="botao" id="botao_retorno"><a href="index.html">Retornar</a></button>
+        <a href="index.html" class="botao" id="botao_retorno">Voltar</a>
     </main>
 </body>
 </html>

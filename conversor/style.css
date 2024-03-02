@@ -33,6 +33,7 @@ main{
     padding: 3.5px;
     border-radius: 4px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.304);
+    cursor: pointer;
 }
 
 .botao:hover{
@@ -51,6 +52,8 @@ form{
     font-size: larger;
     padding: 20px;
     height: 20vh;
+    display: flex;
+    flex-direction: column;
 }
 
 form > input{
@@ -70,6 +73,9 @@ p{
     flex-direction: column;
 }
 
+#botao_retorno{
+    padding: 8px 10px;
+}
 a{
     text-decoration: none;
     color: inherit;
